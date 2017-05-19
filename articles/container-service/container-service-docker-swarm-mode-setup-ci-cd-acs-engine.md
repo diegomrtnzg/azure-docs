@@ -25,7 +25,7 @@ ms.author: diegomrtnzg
 
 One of the biggest challenges when developing modern applications for the cloud is being able to deliver these applications continuously. In this article, you learn how to implement a full continuous integration and deployment (CI/CD) pipeline using Azure Container Service Engine with Docker Swarm Mode, Azure Container Registry, and Visual Studio Team Services build and release management.
 
-This article is based on a simple application, available on [GitHub](https://github.com/jcorioland/MyShop/tree/docker-linux), developed with ASP.NET Core. The application is composed of four different services: three web APIs and one web front end:
+This article is based on a simple application, available on [GitHub](https://github.com/diegomrtnzg/MyShop/tree/docker-linux), developed with ASP.NET Core. The application is composed of four different services: three web APIs and one web front end:
 
 ![MyShop sample application](./media/container-service-docker-swarm-setup-ci-cd/myshop-application.png)
 
@@ -52,7 +52,7 @@ Before starting this tutorial, you need to complete the following tasks:
 - [Connect with the Swarm cluster in Azure Container Service](container-service-connect.md)
 - [Create an Azure container registry](../container-registry/container-registry-get-started-portal.md)
 - [Have a Visual Studio Team Services account and team project created](https://www.visualstudio.com/en-us/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services)
-- [Fork the GitHub repository to your GitHub account](https://github.com/jcorioland/MyShop/tree/docker-linux)
+- [Fork the GitHub repository to your GitHub account](https://github.com/diegomrtnzg/MyShop/tree/docker-linux)
 
 > Note: the Docker Swarm orchestrator in Azure Container Service uses legacy standalone Swarm. Currently, the integrated [Swarm mode](https://docs.docker.com/engine/swarm/) (in Docker 1.12 and higher) is not a supported orchestrator in Azure Container Service. This is why we are using [ACS Engine](https://github.com/Azure/acs-engine/blob/master/docs/swarmmode.md), a community-contributed [quickstart template](https://azure.microsoft.com/resources/templates/101-acsengine-swarmmode/), or a Docker solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com).
 
