@@ -52,7 +52,7 @@ Before starting this tutorial, you need to complete the following tasks:
 - [Connect with the Swarm cluster in Azure Container Service](container-service-connect.md)
 - [Create an Azure container registry](../container-registry/container-registry-get-started-portal.md)
 - [Have a Visual Studio Team Services account and team project created](https://www.visualstudio.com/en-us/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services)
-- [Fork the GitHub repository to your GitHub account](https://github.com/diegomrtnzg/MyShop/tree/swarm-mode)
+- [Fork the GitHub repository to your GitHub account](https://github.com/jcorioland/MyShop/tree/docker-linux)
 
 > Note: the Docker Swarm orchestrator in Azure Container Service uses legacy standalone Swarm. Currently, the integrated [Swarm mode](https://docs.docker.com/engine/swarm/) (in Docker 1.12 and higher) is not a supported orchestrator in Azure Container Service. This is why we are using [ACS Engine](https://github.com/Azure/acs-engine/blob/master/docs/swarmmode.md), a community-contributed [quickstart template](https://azure.microsoft.com/resources/templates/101-acsengine-swarmmode/), or a Docker solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com).
 
