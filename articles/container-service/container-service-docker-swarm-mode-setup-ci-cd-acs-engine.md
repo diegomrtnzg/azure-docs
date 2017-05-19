@@ -25,7 +25,7 @@ ms.author: diegomrtnzg
 
 One of the biggest challenges when developing modern applications for the cloud is being able to deliver these applications continuously. In this article, you learn how to implement a full continuous integration and deployment (CI/CD) pipeline using Azure Container Service Engine with Docker Swarm Mode, Azure Container Registry, and Visual Studio Team Services build and release management.
 
-This article is based on a simple application, available on [GitHub](https://github.com/diegomrtnzg/MyShop/tree/swarm-mode), developed with ASP.NET Core. The application is composed of four different services: three web APIs and one web front end:
+This article is based on a simple application, available on [GitHub](https://github.com/jcorioland/MyShop/tree/docker-linux), developed with ASP.NET Core. The application is composed of four different services: three web APIs and one web front end:
 
 ![MyShop sample application](./media/container-service-docker-swarm-setup-ci-cd/myshop-application.png)
 
